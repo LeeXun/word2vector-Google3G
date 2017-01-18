@@ -1,7 +1,7 @@
 var express = require('express');// init express
 var app = express();
 var server = require('http').createServer(app); // use express in http server for socket.io
-var port = process.env.PORT || 8888;// port apply
+var port = process.env.PORT || 9999;// port apply
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var w2vRouter = require("./routers/w2v");
